@@ -28,7 +28,7 @@ public class WiseTrack {
             object: nil
         )
         
-        print("CPU-Architecture = \(UIDevice.current.cpuArchitecture)")
+        print("CPU-Architecture = \(String(describing: UIDevice.current.cpuArchitecture))")
     }
     
     @objc private func applicationDidEnterBackground() {
