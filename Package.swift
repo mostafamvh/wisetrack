@@ -22,7 +22,8 @@ let package = Package(
             name: "WiseTrack",
             dependencies: [
                 "SwiftCPUDetect"
-            ]
+            ],
+            path: "Sources"
         ),
         .testTarget(
             name: "WiseTrackTests",
