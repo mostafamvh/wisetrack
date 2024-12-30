@@ -27,6 +27,8 @@ public class WiseTrack {
             name: UIApplication.didFinishLaunchingNotification,
             object: nil
         )
+        
+        print("CPU-Architecture = \(UIDevice.current.cpuArchitecture)")
     }
     
     @objc private func applicationDidEnterBackground() {
